@@ -28,4 +28,8 @@ public class TicketPool {
         logger.log("Ticket removed from the pool :" + ticket.getId());
         return ticket;
     }
+
+    public int getAvailableTickets() {
+        return tickets.size();
+    }
 }

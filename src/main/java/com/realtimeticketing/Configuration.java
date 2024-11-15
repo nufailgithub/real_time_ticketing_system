@@ -56,4 +56,12 @@ public class Configuration {
             throw new IllegalArgumentException("Invalid number format");
         }
     }
+
+    // Getters
+    public int getTotalTickets() { return totalTickets; }
+    public int getTicketReleaseRate() { return ticketReleaseRate; }
+    public int getCustomerRetrievalRate() { return customerRetrievalRate; }
+    public int getMaxTicketCapacity() { return maxTicketCapacity; }
+
+
 }
